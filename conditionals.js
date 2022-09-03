@@ -167,13 +167,13 @@ var balance = -325.00;
 var checkBalance = true;
 var isActive = true;
 
-if (checkBalance === true && isActive === true && balance >= 0) {
+if (checkBalance === true && isActive === true && balance > 0) {
   console.log('Your balance is ' + balance)
 } else if (checkBalance === true && isActive === false) {
     console.log('Your account is no longer active') 
 } else if (checkBalance === true && isActive === true && balance == 0) {
     console.log('This account is empty unfortunately')
-} else if (checkBalance === true && isActive === true && balance <= 0) {
+} else if (checkBalance === true && isActive === true && balance < 0) {
     console.log('Negative balance. Please contact your bank.')
 } else {
     console.log('Thank you. Have a nice day!')
