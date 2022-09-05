@@ -205,3 +205,30 @@ if ((flavor === "vanilla" || flavor === "chocolate") && (vessel === "cone" || ve
     console.log("I'd like two scoops " + flavor + " ice cream in a " + vessel + " with" + toppings)
 } else console.log("Mi nuh have dat!")
 
+// Truthy/ Falsy
+
+/*
+
+Every value in JavaScript has an inherent boolean value. When that value is evaluated in the context of a boolean expression, the value will be transformed into that inherent boolean value.
+
+The paragraph above is pretty dense with information. You should probably re-read it again! ☝️
+
+Falsy values
+A value is falsy if it converts to false when evaluated in a boolean context. For example, an empty String "" is falsy because, "" evaluates to false.
+
+Here’s the list of all of the falsy values:
+the Boolean value false
+the null type
+the undefined type
+the number 0
+the empty string ""
+the odd value NaN (stands for "not a number", check out the NaN MDN article)
+
+A value is truthy if it converts to true when evaluated in a boolean context.
+
+Essentially, if it's not in the list of falsy values, then it's truthy!
+
+*/
+
+if(< Write your condition here >)
+    console.log("This text will be printed if the condition above evaluates to true");
